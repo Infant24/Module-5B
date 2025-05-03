@@ -12,10 +12,22 @@ To write a Python program using **NumPy** that finds the indices where elements 
 4. **Find Indices**: Use `np.where()` to get the indices where the conditions `x >= y` are satisfied.
 5. **Print Indices**: Print the indices where the condition holds true.
 
-## 🧾 Program
+## 🧾 PrograM
 
-Add code here
+import numpy as np  
+x=eval(input()) 
+y=eval(input()) 
+l1=np.array(x) 
+l2=np.array(y) 
+print(np.where(l1>l2)) 
+print(np.where(l1==l2))
+
 
 ## Output
 
+![image](https://github.com/user-attachments/assets/fe32f431-4df7-462c-bcf1-6a2bae526670)
+
+
 ## Result
+
+Thus the python program for element wise comparison between two numpy array has been implemented and executed successfully.
